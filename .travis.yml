@@ -1,7 +1,7 @@
 language: cpp
 sudo: required
 dist: trusty
-os: linux
+os: osx
 script:
 - cmake -H. -B_builds
 - cmake --build _builds/
